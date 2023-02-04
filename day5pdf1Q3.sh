@@ -1,10 +1,10 @@
 #Problem : Add two Random Dice Number and Print the Result
 #!/bin/bash
 
-number=$((RANDOM%12)); #(0-5)
+number=$((RANDOM%12)); 
 echo $number;
 
-number1=$((RANDOM%12+1)); #(1-6)
+number1=$((RANDOM%12+1)); 
 echo $number1;
 
 
