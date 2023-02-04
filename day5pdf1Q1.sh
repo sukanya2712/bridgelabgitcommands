@@ -6,7 +6,7 @@
 a=1
 while [ $a -lt 6 ];
 do
-    number1=$((RANDOM%6+10)); 
+    number1=$((RANDOM%6)); 
     echo $number1; 
     ((a++))
 done
